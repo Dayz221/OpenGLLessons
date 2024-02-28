@@ -1,0 +1,13 @@
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/CMakeFiles/OpenGLLessons.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/CMakeFiles/INSTALL.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glfw/CMakeFiles/uninstall.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glfw/CMakeFiles/INSTALL.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glfw/src/CMakeFiles/glfw.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glfw/src/CMakeFiles/update_mappings.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glad/CMakeFiles/glad.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glad/CMakeFiles/INSTALL.dir
+C:/Users/Dayz221/Documents/ProjectsC++/OpenGLLessons/build/external/glad/CMakeFiles/ALL_BUILD.dir
