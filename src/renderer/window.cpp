@@ -25,6 +25,7 @@ Window::Window(GLuint width, GLuint height, string caption) : width(width), heig
     curWindow = this;
 
     glfwSetWindowSizeCallback(window, defaultResizeCallback);
+    glfwSetKeyCallback(window, defaultKeyCallback);
 
     glfwMakeContextCurrent(window);
 
@@ -105,6 +106,17 @@ int Window::getFps() {
     return (1.0f / delta);
 }
 
+void Window::keyCallback(int key, int scancode, int action, int mode) {
+    //cout << "Key event: " << key << " " << scancode << " " << action << " " << mode << '\n';
+    if (action == GLFW_PRESS && glfwGetKeyName(key, scancode))
+        cout << "Pressed key: " << glfwGetKeyName(key, scancode) << '\n';
+}
+
+
 void defaultResizeCallback(GLFWwindow* window, int width, int height) {
     curWindow->setSize(width, height);
+}
+
+void defaultKeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode) {
+    curWindow->keyCallback(key, scancode, action, mode);
 }

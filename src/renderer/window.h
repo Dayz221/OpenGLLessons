@@ -14,13 +14,16 @@ private:
 	GLuint height = 0;
 	float lastTime = 0;
 	float delta = 0;
-	string caption = "Window.dayz221";
+	string caption;
 	GLFWwindow* window;
 
 	friend void defaultResizeCallback(GLFWwindow* window, int width, int height);
+	friend void defaultKeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode);
+
+	void keyCallback(int key, int scancode, int action, int mode);
 
 public:
-	Window(GLuint width, GLuint height, string caption);
+	Window(GLuint width, GLuint height, string caption = "The window powered by Dayz221");
 
 	int printError(string err);
 
@@ -45,4 +48,5 @@ public:
 };
 
 void defaultResizeCallback(GLFWwindow* window, int width, int height);
+void defaultKeyCallback(GLFWwindow* window, int key, int scancode, int action, int mode);
 static Window* curWindow;
